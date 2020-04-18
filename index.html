@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-container">
+            <div class="header">
+                <span class="stage stage-1">1</span>
+                <label class="step" for="">Step 1</label>
+            </div>
+            <div class="section section-1">
+                <div class="content content-1">
+                    <label for="email" class="placeholder">Your Email</label>
+                    <input id="email" type="emial" required>
+                    <button class="continue">Continue</button>
+                </div>
+            </div>
+            <div class="header">
+                <span class="stage stage-2">2</span>
+                <label class="step" for="">Step 2</label>
+            </div>
+            <div class="section section-2">
+                <div class="content content-2">
+                    <label for="text" class="placeholder">Your Username</label>
+                    <input id="text" type="text" required>
+                    <div class="wrap-btn">
+                        <button class="continue">Continue</button>
+                        <button class="back">Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <span class="stage stage-3">3</span>
+                <label class="step" for="">Step 3</label>
+            </div>
+            <div class="section section-3">
+                <div class="content content-3">
+                    <label for="password" class="placeholder">Your Password</label>
+                    <input id="password" type="password" required>
+                    <div class="wrap-btn">
+                        <button class="continue">Continue</button>
+                        <button class="back">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
